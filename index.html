@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planetas del Sistema Solar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    🌍 Sistema Solar - Datos Curiosos 🌞
+  </header>
+
+  <section class="planetas">
+    <div class="card" onclick="mostrarInfo('mercurio')">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg" alt="Mercurio">
+      <p>Mercurio</p>
+    </div>
+    <div class="card" onclick="mostrarInfo('venus')">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg" alt="Venus">
+      <p>Venus</p>
+    </div>
+    <div class="card" onclick="mostrarInfo('tierra')">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg" alt="Tierra">
+      <p>Tierra</p>
+    </div>
+    <div class="card" onclick="mostrarInfo('marte')">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg" alt="Marte">
+      <p>Marte</p>
+    </div>
+    <div class="card" onclick="mostrarInfo('jupiter')">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter.jpg" alt="Júpiter">
+      <p>Júpiter</p>
+    </div>
+    <div class="card" onclick="mostrarInfo('saturno')">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg" alt="Saturno">
+      <p>Saturno</p>
+    </div>
+    <div class="card" onclick="mostrarInfo('urano')">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg" alt="Urano">
+      <p>Urano</p>
+    </div>
+    <div class="card" onclick="mostrarInfo('neptuno')">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Neptune_Full.jpg" alt="Neptuno">
+      <p>Neptuno</p>
+    </div>
+  </section>
+
+  <div class="info" id="info"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
